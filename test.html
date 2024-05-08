@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text on Image</title>
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Ensure the parent container has relative positioning */
+    .relative-container {
+      position: relative;
+    }
+    /* Style for the text overlay */
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+<div class="relative-container">
+  <!-- Image with text overlay -->
+  <img src="Images/1.png" alt="Image" class="w-full h-auto">
+  <!-- Text overlay -->
+  <div class="text-overlay">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis dolores harum fugit soluta amet voluptatum accusamus laboriosam maxime? Soluta, saepe libero in reprehenderit pariatur temporibus eaque alias voluptatem ut.</h1>
+  </div>
+</div>
+
+</body>
+</html>
