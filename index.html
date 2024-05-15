@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-03</title>
 <!-- Tailwind and daisy UI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
 
 <!-- Manrope google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,34 +33,40 @@
     .font-manrope{
         font-family: "Work Sans", sans-serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
+        font-weight: weight;
         font-style: normal;
     }
     </style>
 </head>
 
-<body class="font-manrope md:mx-auto">
-
-    <header class="md:mx-auto">
-        <nav class="bg-white-800 py-10 max-w-1170">
+<body class="font-manrope md:mx-auto max-w-292.5 px-10">
+    <header class="max-w-292.5 md:mx-auto">
+        <nav class="bg-white-800 py-10 max-w-292.5 lg:flex sm:flex-end">
             <div class="container mx-auto flex justify-between items-center">
               <!-- Logo -->
               <a href="#" class="text-black text-3xl font-bold">Hockey<span class="text-orange-700">'</span>s</a>
               
               <!-- Navigation Links -->
-              <ul class="flex space-x-4">
+          <div class="block lg:flex sm:flex-end">
+              <ul class="lg:flex space-x-4 sm:flex-end">
                 <li><a href="#" class="text-orange-800 hover:bg-sky-100 p-2 bo rounded-md">Home</a></li>
                 <li><a href="#" class="text-black hover:bg-sky-100 p-2 bo rounded-md">About</a></li>
                 <li><a href="#" class="text-black hover:bg-sky-100 p-2 bo rounded-md">Pages</a></li>
                 <li><a href="#" class="text-black hover:bg-sky-100 p-2 bo rounded-md">Blog</a></li>
                 <li><a href="#" class="text-black hover:bg-sky-100 p-2 bo rounded-md">Contact</a></li>
               </ul>
-              <div class="flex items-center px-10px gap-3 ">
+          </div>
+<!-- get ticket section -->
+              <div class="lg:flex items-center gap-3 sm:flex-end">
+                <div>
                 <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                </div>
                 <div>
                   <button class="text-white bg-orange-700 rounded-btn p-2">Get Ticket</button>
                 </div>
               </div>
+<!-- end -->
+
             </div>
           </nav>
 
@@ -103,178 +109,126 @@
           </div>
 
             <!-- Text overlay -->
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/3 -translate-y-1/3 text-left text-white bg-black-700 max-w-574 max-h-158 p-10">
-              <h2 class="text-white font-bold text-2xl">Meet all the heroes from the field</h2>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/3 -translate-y-1/3 text-left text-white bg-black-700 max-w-574 max-h-158 p-10 sm:flex-end ms:text-black">
+              <h2 class="text-white lg:font-bold text-2xl">Meet all the heroes from the field</h2>
               <p> Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
             </div>
           </div>
      
     </header>
+    <br><br>
+    <hr>
     <main class="container mx-auto">
-      <div class="relative">
-        <span class="text-black text-shadow inline-block text-center px-60 py-20">
+      <div class="relative py-20">
+        <span class="text-center py-40">
           <h1 class="text-3xl"><strong>Professional Hockeys Club</strong></h1>
-          <p>
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+          <p class="pb-10">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            <br>
+            turpis placerat dolor. Purus urna in sit nullam proin. 
           </p>
         </span>
-        <hr>
-        <br>
+        <br> <hr> <br> <br>
 <!-- Persentis Style -->
-        <div class="flex text-center justify-between gap-2">
+        <div class="lg:flex sm:flex-end text-center justify-between lg:gap-2 sm:m-auto pb-4 m-2 sm:gap-2">
           <div class="max-h-239 max-w-250 bg-orange-50 text-center justify-center shadow-lg p-2">
-            <img class="max-h-60 max-w-60 pl-14" src="Images/perser- (1).png">
+            <img class="max-h-60 max-w-60 m-auto" src="Images/perser- (1).png">
             <h2>Prayer Facility</h2>
-            <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+            <p class="pb-10">Amet consectetur. Condimentum dignissim adipiscing </p>
           </div>
           <div class="max-h-239 max-w-250 bg-sky-50 text-center justify-center shadow-lg p-2 gap-2">
-            <img class="max-h-60 max-w-60 pl-14" src="Images/perser- (2).png">
+            <img class="max-h-60 max-w-60 m-auto" src="Images/perser- (2).png">
             <h2>Experienced Coach</h2>
-            <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+            <p class="pb-10">Amet consectetur. Condimentum dignissim adipiscing </p>
           </div>
           <div class="max-h-239 max-w-250 bg-orange-50 text-center justify-center shadow-lg p-2">
-            <img class="max-h-60 max-w-60 pl-14" src="Images/perser- (3).png">
+            <img class="max-h-60 max-w-60 m-auto" src="Images/perser- (3).png">
             <h2>Senior Player</h2>
-            <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+            <p class="pb-10">Amet consectetur. Condimentum dignissim adipiscing </p>
           </div>
-          <div class="max-h-239 max-w-250 text-center bg-orange-50 text-center justify-center shadow-lg p-2">
-            <img class="max-h-60 max-w-60 pl-14" src="Images/perser- (4).png">
+          <div class="max-h-239 max-w-250 text-center bg-sky-50 text-center justify-center shadow-lg p-2">
+            <img class="max-h-60 max-w-60 m-auto" src="Images/perser- (4).png">
             <h2>Training Ground</h2>
-            <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+            <p class="pb-10">Amet consectetur. Condimentum dignissim adipiscing </p>
           </div>
         </div>
 
         <!-- Program Section -->
-        <div class="relative">
-          <span class="text-black text-shadow inline-block text-center px-80 py-20 max-w-1170 max-h-189">
-            <h2 class="text-3xl"><strong>Program Sections</strong></h2>
-            <p class="lg:max-w-3x1">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   
-            </p>
-          </span>
+        <br><br>
+    <hr>
+    <main class="container mx-auto">
+      <div class="relative py-20">
+        <span class="text-center py-40">
+          <h1 class="text-3xl"><strong>Program Sections</strong></h1>
+          <p class="pb-10">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            <br>
+            turpis placerat dolor. Purus urna in sit nullam proin. 
+          </p>
+        </span>
+        <br> <hr> <br> <br>
+
 <!-- Picture section -->
-      <div class="flex gap-5 py-10 text-left max-w-1170 max-h-450">
-        <div class="relative">
-            <img class="max-h-338 max-w-573" src="Images/2.png">
-          <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
-              <h1 class="text-4xl font-bold">Junior Program</h1>
-              <p class="text-lg mt-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+      <div class="lg:flex sm:flex-end justify-between mx-auto lg:pb-10 m-auto">
+          <div class="relative">
+            <img class="max-h-full max-w-full" src="Images/2.png">
+                
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white sm:text-xs">
+              <h1 class="lg:text-4xl font-bold sm:text-base">
+                Junior Program</h1>
+              <p class="lg:text-lg mt-2 sm:text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                <button class="text-white bg-orange-700 rounded-btn p-2">Register Now!</button>
+                <button class="lg:text-lg text-white bg-orange-700 rounded-btn p-2 m-2 sm:text-xs">Register Now!</button>
             </div>
           </div>
 
           <div class="relative">
-            <img class="max-h-338 max-w-573"src="Images/3.png">
-          <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
-              <h1 class="text-4xl font-bold">Teenager Program</h1>
-              <p class="text-lg mt-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+            <img class="max-h-full max-w-full lg:py-0 sm:py-5" src="Images/3.png">
+                
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white sm:text-xs">
+              <h1 class="lg:text-4xl font-bold sm:text-base">Teenager Program</h1>
+              <p class="lg:text-lg mt-2 sm:text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                <button class="text-white bg-orange-700 rounded-btn p-2">Register Now!</button>
+                <button class="lg:text-lg text-white bg-orange-700 rounded-btn p-2 m-2 sm:text-xs">Register Now!</button>
             </div>
           </div>
         </div>
 <!-- picture 2nd part -->
-        <div class="relative">
+        <div class="relative m-auto max-w-full">
           <img class="max-w-1170 max-h-450" src="Images/4.png" alt="Image">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
-            <h1 class="text-4xl font-bold">Professional Program</h1>
-            <p class="text-lg mt-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white sm:text-xs">
+            <h1 class="lg:text-4xl font-bold sm:text-base">Professional Program</h1>
+            <p class="lg:text-lg mt-2 sm:text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-              <button class="text-white bg-orange-700 rounded-btn p-2">Register Now!</button>
+              <button class="lg:text-lg text-white bg-orange-700 rounded-btn p-2 m-2 sm:text-xs">Register Now!</button>
           </div>
         </div>
     <br>
     <br>
         <hr>
         <!-- Our New Products Style -->
-        <div class="relative">
-          <span class="text-black text-shadow inline-block text-center px-80 py-20">
-            <h2 class="text-3xl"><strong>Our New Products</strong></h2>
-            <p class="lg:max-w-3x1">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   
-            </p>
-          </span>
-          <hr>
-          <br>
-          <br>
+        <br><br>
+    <hr>
+    <main class="container mx-auto">
+      <div class="relative py-20">
+        <span class="text-center py-40">
+          <h1 class="text-3xl"><strong>Our New Products</strong></h1>
+          <p class="pb-10">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            <br>
+            turpis placerat dolor. Purus urna in sit nullam proin. 
+          </p>
+        </span>
+        <br> <hr> <br> <br>
 
-          <!-- Next Level -->
-          <div class="flex justify-between">
-            <!-- steep 01 -->
-          <div class="flex gap-3">
-            <div>
-              <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-black p-4 rounded-xl">
-                <img src="Images/5.png" alt="">
-                <div class="p-2.5 m-1.5 m-2 text-left">
-                  <nav class="flex justify-between style-0 pb-4">
-
-                    <div class="flex items-center gap-1">
-                      <i class="fa-solid fa-star text-amber-400"></i>
-                      <p>5.0</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <i class="fa-solid fa-eye"></i>
-                      <p>20</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <i class="fa-regular fa-heart"></i>
-                      <p>200</p>
-                    </div>
-                  </nav>
-                  <div>
-                    <h2>World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                    <div class="flex justify-between">
-                      <p class="text-red-600/100">Price - $22.00</p>
-                      <p>Delivery Fee : Free</p>
-                    </div>
-              </div>
-                </div>
-            </div>
-              </div>
-              <br>
-<!-- steep 02 -->
-<div>
-              <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-current p-4 rounded-xl">
-                <img src="Images/6.png" alt="">
-                <div class="p-2.5 m-1.5 text-left m-2">
-                  <nav class="flex justify-between style-0 pb-4">
-
-                    <div class="flex items-center gap-1">
-                      <i class="fa-solid fa-star text-amber-400"></i>
-                      <p>5.0</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <i class="fa-solid fa-eye"></i>
-                      <p>20</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <i class="fa-regular fa-heart"></i>
-                      <p>200</p>
-                    </div>
-                  </nav>
-                  <div>
-                    <h2>World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                    <div class="flex justify-between">
-                      <p class="text-red-600/100 ">Price - $22.00</p>
-                      <p>Delivery Fee : Free</p>
-                    </div>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-              <br>
-
- <!-- Next Level -02-->
- <div class="flex justify-between flex gap-3">
-  <!-- steep 2/1 -->
+<!-- Next Level -->
+         
+<!-- steep 01 -->
+<div class="lg:flex sm:flex-end gap-3">
+  <div>
     <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-black p-4 rounded-xl">
-      <img src="Images/7.png" alt="">
-      <div class="p-2.5 m-1.5 text-left m-2">
+      <img src="Images/5.png" alt="">
+      <div class="p-2.5 m-1.5 m-2 text-left">
         <nav class="flex justify-between style-0 pb-4">
 
           <div class="flex items-center gap-1">
@@ -299,11 +253,13 @@
           </div>
     </div>
       </div>
+  </div>
     </div>
     <br>
-<!-- steep 2/2 -->
+<!-- steep 02 -->
+<div>
     <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-current p-4 rounded-xl">
-      <img src="Images/8.png" alt="">
+      <img src="Images/6.png" alt="">
       <div class="p-2.5 m-1.5 text-left m-2">
         <nav class="flex justify-between style-0 pb-4">
 
@@ -328,17 +284,91 @@
             <p>Delivery Fee : Free</p>
           </div>
     </div>
-      </div>
     </div>
-</div>
-<br>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
 
- <!-- Next Level -03-->
- <div class="flex justify-between flex gap-3">
-  <!-- steep 3/1 -->
+<!-- Level-02 -->
+
+    <!-- steep 01 -->
+    <div class="lg:flex sm:flex-end gap-3">
+      <div>
+        <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-black p-4 rounded-xl">
+          <img src="Images/7.png" alt="">
+          <div class="p-2.5 m-1.5 m-2 text-left">
+            <nav class="flex justify-between style-0 pb-4">
+
+              <div class="flex items-center gap-1">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <p>5.0</p>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="fa-solid fa-eye"></i>
+                <p>20</p>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="fa-regular fa-heart"></i>
+                <p>200</p>
+              </div>
+            </nav>
+            <div>
+              <h2>World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              <div class="flex justify-between">
+                <p class="text-red-600/100">Price - $22.00</p>
+                <p>Delivery Fee : Free</p>
+              </div>
+        </div>
+          </div>
+      </div>
+        </div>
+        <br>
+<!-- steep 02 -->
+<div>
+        <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-current p-4 rounded-xl">
+          <img src="Images/8.png" alt="">
+          <div class="p-2.5 m-1.5 text-left m-2">
+            <nav class="flex justify-between style-0 pb-4">
+
+              <div class="flex items-center gap-1">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <p>5.0</p>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="fa-solid fa-eye"></i>
+                <p>20</p>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="fa-regular fa-heart"></i>
+                <p>200</p>
+              </div>
+            </nav>
+            <div>
+              <h2>World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              <div class="flex justify-between">
+                <p class="text-red-600/100 ">Price - $22.00</p>
+                <p>Delivery Fee : Free</p>
+              </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br>
+
+<!-- Level-03 -->
+
+<!-- steep 01 -->
+<div class="lg:flex sm:flex-end gap-3">
+  <div>
     <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-black p-4 rounded-xl">
       <img src="Images/9.png" alt="">
-      <div class="p-2.5 m-1.5 text-left m-2">
+      <div class="p-2.5 m-1.5 m-2 text-left">
         <nav class="flex justify-between style-0 pb-4">
 
           <div class="flex items-center gap-1">
@@ -362,50 +392,60 @@
             <p>Delivery Fee : Free</p>
           </div>
     </div>
-    </div>
+      </div>
+  </div>
     </div>
     <br>
-<!-- steep 3/2 -->
+<!-- steep 02 -->
+<div>
     <div class="flex justify-between max-w-143 max-h-54 rounded-sm bg-slate-100 border-current p-4 rounded-xl">
       <img src="Images/10.png" alt="">
       <div class="p-2.5 m-1.5 text-left m-2">
-            <div class="flex justify-between style-0 pb-4">
-                    <div class="flex items-center gap-1">
-                      <i class="fa-solid fa-star text-amber-400"></i>
-                      <p>5.0</p>
-                    </div>
-                        <div class="flex items-center gap-1">
-                          <i class="fa-solid fa-eye"></i>
-                          <p>20</p>
-                        </div>
-                    <div class="flex items-center gap-1">
-                      <i class="fa-regular fa-heart"></i>
-                      <p>200</p>
-                    </div>
+        <nav class="flex justify-between style-0 pb-4">
+
+          <div class="flex items-center gap-1">
+            <i class="fa-solid fa-star text-amber-400"></i>
+            <p>5.0</p>
           </div>
-                <div class="border-black">
-                    <h2>World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex justify-between">
-                          <p class="text-red-600/100 ">Price - $22.00</p>
-                          <p>Delivery Fee : Free</p>
-                        </div>
-                </div>
+          <div class="flex items-center gap-1">
+            <i class="fa-solid fa-eye"></i>
+            <p>20</p>
+          </div>
+          <div class="flex items-center gap-1">
+            <i class="fa-regular fa-heart"></i>
+            <p>200</p>
+          </div>
+        </nav>
+        <div>
+          <h2>World Cup Flags Football</h2>
+          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+          <div class="flex justify-between">
+            <p class="text-red-600/100 ">Price - $22.00</p>
+            <p>Delivery Fee : Free</p>
+          </div>
     </div>
     </div>
     </div>
-    <br><br><br>
-    <hr>
+    </div>
+    </div>
+    </div>
     <br>
-        <div class="relative">
-          <span class="text-black text-shadow inline-block text-center px-80 py-20">
-            <h2 class="text-3xl"><strong>Clients Question</strong></h2>
-            <p class="lg:max-w-3x1">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   
-            </p>
-          </span>
+
+<!-- Clients Question  -->
+<br><br>
     <hr>
-    <br>
+    <main class="container mx-auto">
+      <div class="relative py-20">
+        <span class="text-center py-40">
+          <h1 class="text-3xl"><strong>Clients Question</strong></h1>
+          <p class="pb-10">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            <br>
+            turpis placerat dolor. Purus urna in sit nullam proin. 
+          </p>
+        </span>
+        <br> <hr> <br> <br>
+
      <!-- Next Level -04-->
       <div class="flex gap-6 max-w-1170 max-h-534 border-2 rounded-xl p-4">
         <div>
@@ -457,18 +497,20 @@
   </div>
         <!-- end plus icon -->
         <br><br>
-<hr>
-      <div class="relative">
-        <span class="text-black text-shadow inline-block text-center px-80 py-20">
-          <h2 class="text-3xl"><strong>Get In Touch</strong></h2>
-          <p class="lg:max-w-3x1">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   
-          </p>
-        </span>
         <hr>
-        <br>
-        <br>
+        <main class="container mx-auto">
+          <div class="relative py-20">
+            <span class="text-center py-40">
+              <h1 class="text-3xl"><strong>Get In Touch</strong></h1>
+              <p class="pb-10">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                <br>
+                turpis placerat dolor. Purus urna in sit nullam proin. 
+              </p>
+            </span>
+            <br> <hr> <br> <br>
 
+<!-- footer section -->
         <div class="flex justify-between gap-6">
             <div class="border-black max-w-374 max-h-664 gap-4 p-10 border-2 border-black">
                 <div class="bg-orange-50 p-5 rounded-xl">
